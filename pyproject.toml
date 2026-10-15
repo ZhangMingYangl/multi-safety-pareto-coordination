@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-safety-pareto-coordination"
+version = "0.1.0"
+description = "Multi-Safety Pareto Coordination (MSPC) for shared-parameter gradient conflict resolution"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0"]
+authors = [
+    {name = "Mingyang Zhang"},
+]
+keywords = [
+    "multi-objective-optimization",
+    "multi-task-learning",
+    "gradient-conflict",
+    "ai-safety",
+    "pytorch",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[tool.setuptools.packages.find]
+include = ["mspc*"]
+

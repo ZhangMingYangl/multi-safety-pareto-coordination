@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use MSPC in academic work, please cite this software."
+title: "Multi-Safety Pareto Coordination"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Zhang
+    given-names: Mingyang
+    affiliation: Jinan University
+abstract: >-
+  A PyTorch implementation of Multi-Safety Pareto Coordination for resolving
+  gradient conflicts among safety modules that update shared model parameters.
