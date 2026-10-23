@@ -4,8 +4,17 @@ title: "Multi-Safety Pareto Coordination"
 type: software
 version: 0.1.0
 authors:
+  - family-names: Long
+    given-names: Saiqin
+    affiliation: Jinan University
   - family-names: Zhang
     given-names: Mingyang
+    affiliation: Jinan University
+  - family-names: Wang
+    given-names: Junhui
+    affiliation: Jinan University
+  - family-names: Wu
+    given-names: Wentai
     affiliation: Jinan University
 abstract: >-
   A PyTorch implementation of Multi-Safety Pareto Coordination for resolving
