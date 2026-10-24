@@ -9,12 +9,6 @@ description = "Multi-Safety Pareto Coordination (MSPC) for shared-parameter grad
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["torch>=2.0"]
-authors = [
-    {name = "Saiqin Long"},
-    {name = "Mingyang Zhang"},
-    {name = "Junhui Wang"},
-    {name = "Wentai Wu"},
-]
 keywords = [
     "multi-objective-optimization",
     "multi-task-learning",
